@@ -1,0 +1,25 @@
+//Scope
+let inside the curly bases you can not use outside the bases the variables   . (let has a blaock scope)
+var ko andar ya bahar rakhio mo problem not restricted
+const has a block scope (same as let)
+
+Mutability
+once const declared it has not be changed
+
+curly braces = block
+()=fn 
+
+
+//loop
+for in=index pr iterate
+for of=elements pr iterate
+
+
+//React :javascript is a lib to boost the ui/ux
+npx create-react-app Knights  (faster)
+npm create vite@latest  (lighter and faster)
+
+
+
+//reacts works on a component programming(eigher functional or class component)
+//component name always start with capital letter
