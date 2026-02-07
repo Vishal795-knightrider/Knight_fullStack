@@ -2,6 +2,7 @@ import './App.css'
 import Header from'./components/Header.jsx'     //header isliye likha kyuki kuch return ho ayega header.jsx se
 import Registeration from './components/Registeration.jsx'
 import Footer from './components/footer.jsx'
+import Main from './components/main.jsx'
 
 export default function App() {                //This fn is a type of javascript
 
@@ -12,7 +13,8 @@ export default function App() {                //This fn is a type of javascript
         <Header title="I am a Knight Rider"/>
         <Header title="Who rides in the Knight"/>     
         <Registeration />   
-        <Footer year={y} company={c}/> 
+        <Footer year={y} company={c}/>
+        <Main /> 
 
     </div>
   )
