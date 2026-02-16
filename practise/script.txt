@@ -30,3 +30,12 @@ npm create vite@latest
 
 //===props use===//
 1 component se dusre component me data bhejne ke liye and even in the same component;
+
+
+
+li ke andar div and 1 button rakhna hai aur yeh html element hai 
+
+
+state
+var banega aur uska setter, jo bhi task bnega uske store krne ke liye
+task 1 arrya hai 

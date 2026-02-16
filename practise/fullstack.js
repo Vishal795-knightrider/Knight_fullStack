@@ -161,3 +161,22 @@
 //     else return n*factorial(n-1);
 // }
 // console.log(factorial(5));
+
+
+
+//MAP
+const number=[2,6,9];
+// const newNumber=number.map(function(n){
+//     return  n*2;
+// })
+//instead of this i can write  below code
+const newNumber=number.map(n=>n*2);  //=>li<
+console.log(newNumber);
+
+
+//filter 
+const newNum=number.filter((n)=>n%2==0)
+console.log(newNum);
+
+
+const n=[...number,5];
