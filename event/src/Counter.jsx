@@ -1,10 +1,10 @@
-import { useState } from "react";
+import { useState } from "react";   //curlybraces btayenge hook use kiya hai
 export default function Counter()
 {
-    const [count,setCount]=useState(0);
+    const [count,setCount]=useState(0);      //count is doctor and setcnt is manager of count
 
     function handleIncrement(){
-        setCount(count=>count+1);
+        setCount(count=>count+1);    //cnt ki state change krni hai
         console.log(count);
     }
     function handleDecrement(){
