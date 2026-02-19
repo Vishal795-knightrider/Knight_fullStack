@@ -2,7 +2,7 @@ import {useState} from 'react';
 export default function Search(){
  
     const [find,setFind]=useState("");   //find me vo receve hoga jo hm text box me enter karege
-    const Student=["Vishal Kumar Jhatuu","Roham","Rinku","Magan","Anay"];
+    const Student=["Vishal","Roham","Rinku","Magan","Anay"];
      
     const student = Student.filter((name) => name.toLowerCase().includes(find.toLowerCase()));
     return(
