@@ -1,4 +1,4 @@
-export default function Header(cartCount){
+export default function Header({cartCount}){
     return(
         <div>
             <h2>React Demo App</h2>
