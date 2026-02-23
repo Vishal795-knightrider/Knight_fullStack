@@ -9,8 +9,8 @@ function App() {
     <>
 
     {/* <EventToDo/> */}
-    {/* <Counter /> */}
-    <Search/>
+    <Counter />
+    {/* <Search/> */}
 
     </>
   )

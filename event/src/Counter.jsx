@@ -1,4 +1,5 @@
 import { useState } from "react";   //curlybraces btayenge hook use kiya hai
+import { useEffect } from "react";
 export default function Counter()
 {
     const [count,setCount]=useState(0);      //count is doctor and setcnt is manager of count
@@ -15,6 +16,9 @@ export default function Counter()
         setCount(count=>count-1);
         // console.log(count);
     }
+
+    // useEffect(()=>{console.log("Welcome")},[])                //mount 
+    // useEffect(()=>{console.log("Count updated")},[count])     //updating
     return(
         <>
         <h1>Counter App</h1>
