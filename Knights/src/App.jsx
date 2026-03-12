@@ -22,7 +22,6 @@ export default function App() {                //This fn is a type of javascript
         <Registeration />   
         <Footer year={y} company={c}/>
         <Main /> 
-
     </div>
   )
 }
