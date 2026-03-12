@@ -20,11 +20,7 @@ export default function App()
     <>
 
     <h1>User DashBoard</h1>
-    <Wrapper title="User list">     
-    {
-    users.map((data)=>(<UserCard data={data}/>))
-    }
-    </Wrapper>
+    <Wrapper title="User list">{ users.map((data)=>(<UserCard data={data}/>)) }</Wrapper>
   
     </>
   )
