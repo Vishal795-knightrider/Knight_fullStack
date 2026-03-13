@@ -1,4 +1,4 @@
-import { UserCard } from './UserCard';
+ import { UserCard } from './UserCard';
 import { Wrapper } from './Wrapper';
 import './App.css'
 

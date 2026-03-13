@@ -9,7 +9,7 @@ function App() {
     <>
 
     {/* <EventToDo/> */}
-    <Counter />
+    {/* <Counter /> */}
     {/* <Search/> */}
 
     </>
